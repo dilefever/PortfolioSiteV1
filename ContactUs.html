@@ -1,63 +1,79 @@
 <DOCTYPE html>
     <html>
         <head>
-            <center><h1>LeFever's River Grill</h1></center>
+            <link href="restaurantStyle.css"
+            rel="stylesheet"
+            type="text/css"/>
+        <style>
+            label {
+              display: inline-block;
+            margin-right: 20px;
+            margin-left: 20px  
+            }
+            tr { 
+                text-align: left; 
+            }
+
+        </style>
+
+            <h1>LeFever's River Grill</h1>
+            
         </head>
         <hr>
         <body>
-<a href="restaurant Site.html"/>Home</a> &nbsp&nbsp&nbsp&nbsp  <a href="Menu.html"/>Menu</a> &nbsp&nbsp&nbsp&nbsp <a href="contactus.html"/>Contact Us</a>
+<a href="restaurant Site.html"/>Home</a><a href="Menu.html"/>Menu</a><a href="contactus.html"/>Contact Us</a>
         <hr>
-            <center>
+        
     <body>
+        <table>
         <form action="#" method="post">
-        <div>
-            <label id="NameLabel" for="Name">Name: </label>
-            &nbsp&nbsp&nbsp&nbsp<input id="Name" name="Name" type="TextType"/>
-        </div>
-        <br/>
-        <div>
-            <label id="EmailLabel" for="Email"> Email: </label>
-            &nbsp&nbsp&nbsp&nbsp<input id="Email" name="Email" type="TextType"/>
-        </div>
-        <br/>
-        <div>
-            <label id="PhoneLabel" for="Phone"> Phone: </label>
-            &nbsp&nbsp&nbsp&nbsp<input id="Phone" name="Phone" type="TextType"/>
-        </div>
-        <br/>
-        <div>
-            Reason for Inquiry:&nbsp&nbsp&nbsp&nbsp<select name="Reason">
+
+        <tr>
+            <td><label id="NameLabel" for="Name">Name: </label></td>
+            <td><input id="Name" name="Name" type="TextType"/></td>
+        </tr>
+        <tr>
+            <td><label id="EmailLabel" for="Email"> Email: </label></td>
+            <td><input id="Email" name="Email" type="TextType"/></td>
+        </tr>
+        <tr>
+            <td><label id="PhoneLabel" for="Phone"> Phone: </label></td>
+            <td><input id="Phone" name="Phone" type="TextType"/></td>
+        </tr>
+        <tr>
+            <td>Reason for Inquiry:</td>
+            <td><select name="Reason">
                 <option value="Catering"> Catering </option>
                 <option value="Private Party"> Private Party </option>
                 <option value="Feedback"> Feedback </option>
                 <option value="Other"> Other </option>
-            </select>
-        </div>
-        <br/>
-        <div>
-            <label id="AdditionInfoLabel" for="Additional Info"> Additional Information: </label>
-            &nbsp&nbsp&nbsp&nbsp<textarea id="AdditionalInfo" name="Additional Information"> </textarea>
-        </div>
-        <br/>
-        <div>
-            Have you been to the resaurant? <input type="radio" name="answer" value="No" checked/> No <input type="radio" name="answer" value="Yes"/>Yes<br/> 
-        </div>
-        <br/>
-        <div>
-           Best days to contact you: <input type="checkbox" name="M" value="Monday"/> M <input type="checkbox" name="T" value="Tuesday"/> T <input type="checkbox" name="W" value="Wednesday"/> W <input type="checkbox" name="Th" value="Thursday"/> Th <input type="checkbox" name="F" value="Friday"/> F 
+            </select></td>
+        </tr>
+        <tr>
+            <td><label id="AdditionInfoLabel" for="Additional Info"> Additional Information: </label></td>
+            <td><textarea id="AdditionalInfo" name="Additional Information"> </textarea></td>
+        </tr>
+        <tr>
+            <td>Have you been to the resaurant?</td> 
+            <td><input type="radio" name="answer" value="No" checked/> No <input type="radio" name="answer" value="Yes"/>Yes<br/> </td>
+        </tr>
+        <tr>
+           <td>Best days to contact you: </td>
+           <td><input type="checkbox" name="M" value="Monday"/> M <input type="checkbox" name="T" value="Tuesday"/> T <input type="checkbox" name="W" value="Wednesday"/> W <input type="checkbox" name="Th" value="Thursday"/> Th <input type="checkbox" name="F" value="Friday"/> F </td>
            <br/>
-        </div>
-        <br/>    
-        <div>
-            <input type="submit" id="submitbutton" value="Send Request"/>
-        </div>
+        </tr>  
+        <tr>
+            <td></td>
+            <td><input type="submit" id="submitbutton" value="Send Request"/></td>
+        </tr>
+        </table>
         </form>
+        
            <br/>
                 <hr>
-                <center>2291 Riverfront PKWY, Cuyahoga Falls, OH 44221</center>
+                <footer>2291 Riverfront PKWY, Cuyahoga Falls, OH 44221
                 <br/>
-                <center>(555)555-5555</center>
-            </div>
+                (555)555-5555
+            </footer>
     </body>
-    </center>
     </html>
