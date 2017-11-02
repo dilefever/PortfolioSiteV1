@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <center>
+    <body>
+        <form action="#" method="post">
+        <div>
+            <label id="FirstNameLabel" for="FirstName"> First Name: </label>
+            <input id="FirstName" name="FirstName" type="TextType"/>
+        </div>
+        <br/>
+        <div>
+            <label id="LastNameLabel" for="LastName"> Last Name: </label>
+            <input id="LastName" name="LastName" type="TextType"/>
+        </div>
+        <br/>
+        <div>
+            <label id="EmailLabel" for="Email"> Email Address: </label>
+            <input id="Email" name="Email" type="TextType"/>
+        </div>
+        <br/>
+        <div>
+            Type of License: <input type="radio" name="answer" value="business" checked/>Business <input type="radio" name="answer" value="personal"/>Personal<br/> 
+        </div>
+        <br/>
+        <div>
+            Reason:<select name="Reason">
+                <option value="Select a Reason"> Select A Reason</option>
+                <option value="Software Support"> Software Support</option>
+                <option value="Hardware Support"> Hardware Support</option>
+                <option value="Information Request"> Information Request</option>
+            </select>
+        </div>
+        <br/>
+        <div>
+            <label id="AdditionInfoLabel" for="Additional Info"> Additional Information: </label>
+            <textarea id="AdditionalInfo" name="Additional Information"> </textarea>
+        </div>
+        <br/>
+        <div>
+            <input type="checkbox" name="termsandservice" value="IAgree"/> I have the terms of service<br/>
+        </div>
+        <br/>    
+        <div>
+            <input type="submit" id="submitbutton" value="Send Request"/>
+        </div>
+        </form>
+    </body>
+    </center>
+</html>
