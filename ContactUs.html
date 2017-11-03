@@ -6,13 +6,16 @@
             type="text/css"/>
         <style>
             label {
-              display: inline-block;
+            font-weight:bold;
+            display: inline-block;
             margin-right: 20px;
             margin-left: 20px  
+        
             }
             tr { 
                 text-align: left; 
             }
+
 
         </style>
 
@@ -41,7 +44,7 @@
             <td><input id="Phone" name="Phone" type="TextType"/></td>
         </tr>
         <tr>
-            <td>Reason for Inquiry:</td>
+            <td><label>Reason for Inquiry:</label></td>
             <td><select name="Reason">
                 <option value="Catering"> Catering </option>
                 <option value="Private Party"> Private Party </option>
@@ -54,11 +57,11 @@
             <td><textarea id="AdditionalInfo" name="Additional Information"> </textarea></td>
         </tr>
         <tr>
-            <td>Have you been to the resaurant?</td> 
+            <td><label>Have you been to the resaurant?</label></td> 
             <td><input type="radio" name="answer" value="No" checked/> No <input type="radio" name="answer" value="Yes"/>Yes<br/> </td>
         </tr>
         <tr>
-           <td>Best days to contact you: </td>
+           <td><label>Best days to contact you:</label> </td>
            <td><input type="checkbox" name="M" value="Monday"/> M <input type="checkbox" name="T" value="Tuesday"/> T <input type="checkbox" name="W" value="Wednesday"/> W <input type="checkbox" name="Th" value="Thursday"/> Th <input type="checkbox" name="F" value="Friday"/> F </td>
            <br/>
         </tr>  
